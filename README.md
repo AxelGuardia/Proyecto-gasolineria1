@@ -43,3 +43,7 @@ Esto puede llevar a situaciones donde algunas estaciones estén cerradas durante
 [![Tabla-horarios.png](https://i.postimg.cc/HLmcNWR8/Tabla-horarios.png)](https://postimg.cc/5XP2YJxf)
 
 [![Tabla-Fecha.png](https://i.postimg.cc/y6GJHy2H/Tabla-Fecha.png)](https://postimg.cc/K4nc7BZq)
+
+## SCRIPTS SQL
+
+
