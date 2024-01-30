@@ -23,7 +23,10 @@ La falta de información centralizada dificulta la toma de decisiones estratégi
 La coordinación de horarios de atención y servicios adicionales se gestiona de forma independiente en cada estación.
 Esto puede llevar a situaciones donde algunas estaciones estén cerradas durante horas pico o donde la oferta de servicios no esté alineada con la demanda de los clientes en ciertos momentos del día.
 
-MODELO DE NEGOCIO
-Las estaciones de servicio propuestas en este proyecto desempeñan un papel crucial al suministrar combustible a todos los vehículos en la provincia o región correspondiente. Las empresas banderas, a su vez, asumen la responsabilidad de proveer combustible a cada una de estas estaciones en diversos puntos del país. En vista del constante aumento en el consumo de combustible, impulsado por el crecimiento vehicular sostenido, surge la imperante necesidad de implementar nuevas tecnologías para optimizar el control y la gestión eficiente de estas estaciones de servicio.
+## MODELO DE NEGOCIO
+<p style="font-family: Arial;"> Las estaciones de servicio propuestas en este proyecto desempeñan un papel crucial al suministrar combustible a todos los vehículos en la provincia o región correspondiente. Las empresas banderas, a su vez, asumen la responsabilidad de proveer combustible a cada una de estas estaciones en diversos puntos del país. En vista del constante aumento en el consumo de combustible, impulsado por el crecimiento vehicular sostenido, surge la imperante necesidad de implementar nuevas tecnologías para optimizar el control y la gestión eficiente de estas estaciones de servicio.</p>
 
-DIAGRAMA DE ENTIDAD RELACION:
+## DIAGRAMA DE ENTIDAD RELACION:
+
+img/DiegramaEntidadRelacionModificado.PNG
+
