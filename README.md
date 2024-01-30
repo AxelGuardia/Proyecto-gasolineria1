@@ -3,11 +3,13 @@
 <p style="font-family: Arial;">Este proyecto tiene como objetivo desarrollar una base de datos que pueda almacenar de manera integral la información referente a las estaciones de servicio, ya sean nuevas o existentes, en todo el territorio argentino.</p>
 
 
-OBJETIVOS:
-•	Llevar registros al día de las estaciones de servicios existentes.
-•	Proporcionar información estandarizada para todas las áreas de cada estación de servicio.
-•	Capacidad para realizar métricas que identifiquen qué empresas banderas suministran sus productos a las estaciones de servicio en el territorio argentino.
-•	Asegurar la persistencia de los datos en una base de datos SQL para su almacenamiento principal, considerando el uso de Excel como una herramienta complementaria.
+## OBJETIVOS:
+
+- Llevar registros al día de las estaciones de servicios existentes.
+- Proporcionar información estandarizada para todas las áreas de cada estación de servicio.
+- Capacidad para realizar métricas que identifiquen qué empresas banderas suministran sus productos a las estaciones de servicio en el territorio argentino.
+- Asegurar la persistencia de los datos en una base de datos SQL para su almacenamiento principal, considerando el uso de Excel como una herramienta complementaria.
+
 SITUACION PROBLEMÁTICA:
 En la cadena de estaciones de servicio se enfrentan a una problemática donde la gestión de inventario y suministro de productos se realiza de manera descentralizada. Cada estación tiene autonomía para gestionar su propio inventario y realizar pedidos de productos, lo que ha llevado a discrepancias en los niveles de stock y a la falta de uniformidad en la variedad de productos ofrecidos.
 
