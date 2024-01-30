@@ -28,5 +28,5 @@ Esto puede llevar a situaciones donde algunas estaciones estén cerradas durante
 
 ## DIAGRAMA DE ENTIDAD RELACION:
 
-img/DiegramaEntidadRelacionModificado.PNG
+img/DiagramaEntidadRelacionModificado.PNG
 
