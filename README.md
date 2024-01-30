@@ -30,3 +30,16 @@ Esto puede llevar a situaciones donde algunas estaciones estén cerradas durante
 
 [![Diagrama-entidad-relacion-modificado.png](https://i.postimg.cc/vT6p9h09/Diagrama-entidad-relacion-modificado.png)](https://postimg.cc/RJ4sx75V)
 
+## TABLAS
+
+[![Tabla-gasolineria.png](https://i.postimg.cc/rFgPszCM/Tabla-gasolineria.png)](https://postimg.cc/vcgzSYNN)
+
+[![Tabla-Empresa-Bandera.png](https://i.postimg.cc/qBxmDgFy/Tabla-Empresa-Bandera.png)](https://postimg.cc/Wtt6hpT1)
+
+[![Tabla-Productos.png](https://i.postimg.cc/HnYt14N5/Tabla-Productos.png)](https://postimg.cc/hzYm9xcP)
+
+[![Tabla-Provincia.png](https://i.postimg.cc/VkrWwNK7/Tabla-Provincia.png)](https://postimg.cc/QFDTkjG5)
+
+[![Tabla-horarios.png](https://i.postimg.cc/HLmcNWR8/Tabla-horarios.png)](https://postimg.cc/5XP2YJxf)
+
+[![Tabla-Fecha.png](https://i.postimg.cc/y6GJHy2H/Tabla-Fecha.png)](https://postimg.cc/K4nc7BZq)
