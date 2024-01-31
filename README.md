@@ -45,11 +45,6 @@ Esto puede llevar a situaciones donde algunas estaciones estén cerradas durante
 [![Tabla-Fecha.png](https://i.postimg.cc/y6GJHy2H/Tabla-Fecha.png)](https://postimg.cc/K4nc7BZq)
 
 ## SCRIPTS SQL
-Creacion tablas.sql
+Creacion tablas
 
-create table fecha(
-id_fecha_hora int not null primary key,
-año int,
-mes int,
-dia varchar(30)
-)</script>
+https://github.com/AxelGuardia/Proyecto-gasolineria1/blob/406fff8d667692c16837683a0b222296c84480a4/Creacion%20tablas.sql
