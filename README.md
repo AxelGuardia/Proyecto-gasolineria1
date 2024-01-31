@@ -46,7 +46,7 @@ Esto puede llevar a situaciones donde algunas estaciones estén cerradas durante
 
 ## SCRIPTS SQL
 Creacion de las tablas y bases de datos
-"create table Gasolinerias(
+create table Gasolinerias(
 id_gasolineria int not null primary key,
 nombre_gasolineria varchar(50) not null,
 domicilio varchar(50),
@@ -88,6 +88,4 @@ id_fecha_hora int not null primary key,
 año int,
 mes int,
 dia varchar(30)
-)"
-
-
+)
