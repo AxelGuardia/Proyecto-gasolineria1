@@ -50,3 +50,24 @@ Esto puede llevar a situaciones donde algunas estaciones estén cerradas durante
 https://github.com/AxelGuardia/Proyecto-gasolineria1/blob/406fff8d667692c16837683a0b222296c84480a4/Creacion%20tablas.sql
 
 #### Script insert SQL
+
+https://github.com/AxelGuardia/Proyecto-gasolineria1/blob/9c3a64565da0093490cc6deb5e09829b172e1922/Insertar%20datos_13.sql
+
+#### Create View SQL
+
+- Vista de Información General de Estaciones:
+Muestra información general de cada estación de servicio, incluyendo nombre de la gasolinera, dirección, provincia, productos ofrecidos, horarios, empresa abastecedora y fecha
+
+- Vista de Empresas Abastecedoras:
+Proporciona información sobre las empresas abastecedoras y las estaciones asociadas. Por otro lado, muestra el nombre de la empresa abastecedora y las estaciones de servicio asociadas.
+
+- Vista de Ventas Diarias por Estación:
+Muestra información sobre las ventas diarias de cada estación. De otro modo, puede incluir datos de la tabla Ventas si tienes una.
+
+- Vista de Horarios:
+Proporciona información sobre los horarios de atención de cada estación.
+
+- Vista de Provincias y Estaciones:
+Muestra información sobre las estaciones de servicio y su ubicación por provincia.
+
+https://github.com/AxelGuardia/Proyecto-gasolineria1/blob/9c3a64565da0093490cc6deb5e09829b172e1922/Creacion%20de%20vistas.sql
