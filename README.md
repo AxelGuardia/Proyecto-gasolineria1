@@ -124,10 +124,10 @@ https://github.com/AxelGuardia/Proyecto-gasolineria1/blob/9c3a64565da0093490cc6d
 
 ## Herramientas y Tecnologias
 
-Excel
-ERDPLUS
-MySQL
-WorkBench
-Git y Github
-Postimage
-Word
+- Excel
+- ERDPLUS
+- MySQL
+- WorkBench
+- Git y Github
+- Postimage
+- Word
