@@ -97,3 +97,37 @@ https://github.com/AxelGuardia/Proyecto-gasolineria1/blob/3d37ea98cc2c2cdd644efe
 
 https://github.com/AxelGuardia/Proyecto-gasolineria1/blob/23d6eb4053c536ff5d77fdbad1db82a6df605280/Creacion%20de%20triggers.sql
 
+## Creacion de Usuarios
+
+https://github.com/AxelGuardia/Proyecto-gasolineria1/blob/269c03eef328e9b84470022c4405b47cec185819/Creacion%20usuarios.sql
+
+## Informes generados en bases de datos
+
+<p>Creacion de vistas para tener los reportes necesarios en SQL</p>
+
+- Vista de Información General de Estaciones:
+El objetivo de este reporte es la recibir una información general de cada estación de servicio, incluyendo nombre de la gasolinera, dirección, provincia, productos ofrecidos, horarios, empresa abastecedora y fecha
+
+- Vista de Empresas Abastecedoras:
+En base a la informacion que nos proporciona esta view sobre las empresas abastecedoras y las estaciones asociadas vamos a poder tener ciertas metricas a lo largo de todo el territorio argentino. Por otro lado, muestra el nombre de la empresa abastecedora y las estaciones de servicio asociadas.
+
+- Vista de Ventas Diarias por Estación:
+Muestra información sobre las ventas diarias de cada estación en la cual nos permite hacer una comparativa de cual es la estacion de servicio con mayor rendimientos. De otro modo, puede incluir datos de la tabla Ventas si tienes una.
+
+- Vista de Horarios:
+Proporciona información sobre los horarios de atención de cada estación sirviendo para tomar metricas de cuales son los turnos mas requeridos.
+
+- Vista de Provincias y Estaciones:
+Muestra información sobre las estaciones de servicio y su ubicación por provincia.
+
+https://github.com/AxelGuardia/Proyecto-gasolineria1/blob/9c3a64565da0093490cc6deb5e09829b172e1922/Creacion%20de%20vistas.sql
+
+## Herramientas y Tecnologias
+
+Excel
+ERDPLUS
+MySQL
+WorkBench
+Git y Github
+Postimage
+Word
