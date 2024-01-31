@@ -72,12 +72,15 @@ Muestra información sobre las estaciones de servicio y su ubicación por provin
 
 https://github.com/AxelGuardia/Proyecto-gasolineria1/blob/9c3a64565da0093490cc6deb5e09829b172e1922/Creacion%20de%20vistas.sql
 
-##Funciones
- Creacion de funciones.
+## Funciones
+<p> Creacion de funciones.</p>
 
 - Obtener estacion de servicio
 - Calcular ventas de estacion de servicio
+
 https://github.com/AxelGuardia/Proyecto-gasolineria1/blob/c6a2fb1bfd7cdb96add228a43e68fa79b36687d3/Funciones.sql
 
-##Stored Procedures
+## Stored Procedures
+
+
 
