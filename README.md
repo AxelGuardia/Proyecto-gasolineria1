@@ -45,6 +45,7 @@ Esto puede llevar a situaciones donde algunas estaciones estén cerradas durante
 [![Tabla-Fecha.png](https://i.postimg.cc/y6GJHy2H/Tabla-Fecha.png)](https://postimg.cc/K4nc7BZq)
 
 ## SCRIPTS SQL
+<scripts> 
 Creacion de las tablas y bases de datos
 create table Gasolinerias(
 id_gasolineria int not null primary key,
@@ -88,4 +89,4 @@ id_fecha_hora int not null primary key,
 año int,
 mes int,
 dia varchar(30)
-)
+)</script>
