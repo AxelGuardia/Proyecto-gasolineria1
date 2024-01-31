@@ -131,3 +131,20 @@ https://github.com/AxelGuardia/Proyecto-gasolineria1/blob/9c3a64565da0093490cc6d
 - Git y Github
 - Postimage
 - Word
+
+## Backup y restauracion
+
+<p>Realizamos el backup de 3 tablas que presentamos a continuacion</p>
+
+https://github.com/AxelGuardia/Proyecto-gasolineria1/blob/58ffaeb6c79187c6ded644ba3df1465230745649/gasolineria_empresa_bandera.sql
+
+https://github.com/AxelGuardia/Proyecto-gasolineria1/blob/58ffaeb6c79187c6ded644ba3df1465230745649/gasolineria_gasolinerias.sql
+
+https://github.com/AxelGuardia/Proyecto-gasolineria1/blob/58ffaeb6c79187c6ded644ba3df1465230745649/gasolineria_provincia.sql
+
+## Futuras Lineas
+
+- Creacion de tablas en la cual podamos comparar los precios de cada estacion de servicio
+- Creacion de tablas que nos permitan llevar estadisticas de donde es el mayor consumor de combustible
+
+                                                                    
