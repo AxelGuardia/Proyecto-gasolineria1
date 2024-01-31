@@ -86,5 +86,14 @@ https://github.com/AxelGuardia/Proyecto-gasolineria1/blob/c6a2fb1bfd7cdb96add228
 - Obtener promedio de ventas mensuales
 
 https://github.com/AxelGuardia/Proyecto-gasolineria1/blob/3d37ea98cc2c2cdd644efe7996f2f02fd979393d/Stored%20procedure.sql
-  
+
+## Triggers
+
+- Registrar nueva Gasolineria
+<p>se encarga de registrar un historial de eventos cada vez que se inserta una nueva fila en la tabla gasolineria</p>
+
+- Auditar cambios de producto
+<p>Se activa cuando hay una actualizacion de producto</p>
+
+https://github.com/AxelGuardia/Proyecto-gasolineria1/blob/23d6eb4053c536ff5d77fdbad1db82a6df605280/Creacion%20de%20triggers.sql
 
