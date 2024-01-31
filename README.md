@@ -82,5 +82,8 @@ https://github.com/AxelGuardia/Proyecto-gasolineria1/blob/c6a2fb1bfd7cdb96add228
 
 ## Stored Procedures
 
-
+- Registrar ventas
+- Obtener promedio de ventas mensuales
+https://github.com/AxelGuardia/Proyecto-gasolineria1/blob/3d37ea98cc2c2cdd644efe7996f2f02fd979393d/Stored%20procedure.sql
+  
 
