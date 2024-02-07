@@ -32,7 +32,7 @@ Esto puede llevar a situaciones donde algunas estaciones estén cerradas durante
 
 ## TABLAS
 
-[![Tabla-gasolineria.png](https://i.postimg.cc/rFgPszCM/Tabla-gasolineria.png)](https://postimg.cc/vcgzSYNN)
+[![image.png](https://i.postimg.cc/g2vrXvJt/image.png)](https://postimg.cc/ZW5JXv66)
 
 [![Tabla-Empresa-Bandera.png](https://i.postimg.cc/qBxmDgFy/Tabla-Empresa-Bandera.png)](https://postimg.cc/Wtt6hpT1)
 
@@ -42,7 +42,7 @@ Esto puede llevar a situaciones donde algunas estaciones estén cerradas durante
 
 [![Tabla-horarios.png](https://i.postimg.cc/HLmcNWR8/Tabla-horarios.png)](https://postimg.cc/5XP2YJxf)
 
-[![Tabla-Fecha.png](https://i.postimg.cc/y6GJHy2H/Tabla-Fecha.png)](https://postimg.cc/K4nc7BZq)
+[![image.png](https://i.postimg.cc/qgH4458J/image.png)](https://postimg.cc/2LGPxTcM)
 
 ## SCRIPTS SQL
 #### Creacion tablas
