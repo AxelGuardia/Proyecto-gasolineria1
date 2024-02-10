@@ -8,6 +8,10 @@ id_producto int not null primary key,
 nombre_producto varchar(50)
 );
 
+ALTER TABLE productos
+CHANGE COLUMN id_producto id_productos INT NOT NULL;
+
+
 create table provincia(
 id_provincia int not null primary key,
 nombre_provincia varchar(50)

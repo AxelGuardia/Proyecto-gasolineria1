@@ -14,7 +14,8 @@ VALUES (1376, '10 de septiembre S.A', 'Av Mosconi 299', 100, 19, 28, 2, '2022-10
        (10677, '1263 S.R.L', 'uta nac. 3 km. 1258 (colectora calle 102 nº 321) 321', 114, 19, 28, 2, '2022-10-01 10:23'),
        (8943, '1923 S.R.L', 'Julio A Roca 715', 103, 19, 28, 2, '2023-08-01 14:00'),
        (9764, '25 ALVEAR S.R.L', 'Calle 9 y Avenida 36 790', 100, 19, 4, 2, '2022-10-03 22:29'),
-       (1284, '25 DE MAYO S.R.L', '25 de mayo 675', 117, 19, 2, 3, '2021-02-01 00:00');
+       (1284, '25 DE MAYO S.R.L', '25 de mayo 675', 117, 19, 2, 3, '2021-02-01 00:00'),
+      (1987, 'TRIUNVIRATO SRL', 'Av Ramos Mejia 233', 123, 6, 4, 1, '2022-09-03 11:13');
 
 
 INSERT INTO provincia (id_provincia, nombre_provincia)

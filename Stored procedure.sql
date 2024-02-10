@@ -4,51 +4,44 @@ from gasolinerias;
 select *
 from productos;
 
+/*Elimine funciones anteriores*/
+drop PROCEDURE registrar_venta;
+drop PROCEDURE obtener_promedio_ventas_mensuales;
+drop PROCEDURE obtener_cantidad_productos_por_gasolinera;
+
+/* Pbtener el NOMBRE DE UNA GASOLINERIA POR SU ID*/
 DELIMITER //
-CREATE PROCEDURE registrar_venta(
-    IN p_id_gasolineria INT,
-    IN p_id_producto INT,
-    IN p_id_fecha_hora INT,
-    IN p_monto FLOAT
+
+CREATE PROCEDURE obtener_nombre_gasolineria_por_id(
+    IN p_id_gasolineria INT
 )
 BEGIN
-    INSERT INTO venta (id_gasolineria, id_producto, id_fecha_hora, monto)
-    VALUES (p_id_gasolineria, p_id_producto, p_id_fecha_hora, p_monto);
+    SELECT nombre_gasolineria
+    FROM gasolinerias
+    WHERE id_gasolineria = p_id_gasolineria;
 END //
+
 DELIMITER ;
+
+CALL obtener_nombre_gasolineria_por_id(1284);
+
+/*Obtener la cantidad de productos una Gasolineria*/
 
 DELIMITER //
 
-CREATE PROCEDURE obtener_promedio_ventas_mensuales()
+CREATE PROCEDURE obtener_cantidad_productos_por_gasolinera(
+    IN p_id_productos INT
+)
 BEGIN
-    SELECT g.id_gasolineria, EXTRACT(MONTH FROM f.fecha) AS mes, AVG(v.monto) AS promedio_ventas
-    FROM venta v
-    JOIN gasolineria g ON v.id_gasolineria = g.id_gasolineria
-    JOIN fecha f ON v.id_fecha = f.id_fecha
-    GROUP BY g.id_gasolineria, mes;
+    SELECT COUNT(*)
+    FROM productos
+    WHERE id_productos = p_id_productos;
 END //
 
 DELIMITER ;
+CALL obtener_cantidad_productos_por_gasolinera (19);
 
-DELIMITER //
 
-CREATE PROCEDURE obtener_promedio_ventas_mensuales()
-BEGIN
-    SELECT
-        g.id_gasolineria,
-        EXTRACT(MONTH FROM f.fecha) AS mes,
-        AVG(v.monto) AS promedio_ventas
-    FROM
-        venta v
-    JOIN
-        gasolineria g ON v.id_gasolineria = g.id_gasolineria
-    JOIN
-        fecha f ON v.id_fecha = f.id_fecha
-    GROUP BY
-        g.id_gasolineria, mes;
-END //
-
-DELIMITER ;
 
 
 

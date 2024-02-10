@@ -5,46 +5,44 @@ select * from gasolinerias;
 select * from horarios;
 select * from productos;
 select * from provincia;
+drop function obtener_cantidad_productos;
 
-DELIMITER %
-CREATE FUNCTION ObtenerEstacionesServicio()
-RETURNS varchar(50)
-READS SQL DATA
+/* Funciones corregidas */
+DELIMITER //
+
+CREATE FUNCTION obtener_nombre_gasolineria(p_id_gasolineria INT) RETURNS VARCHAR(255)
+deterministic
 BEGIN
-    RETURN (
-        SELECT 
-            Gasolinerias.Nombre_Gasolineria,
-            Gasolinerias.Domicilio,
-            Provincia.nombre_provincia,
-            productos.nombre_producto,
-            Horarios.Tipo_Horario
-        FROM 
-            Gasolinerias 
-            JOIN Provincia ON Gasolinerias.Id_Provincia = provincia.Id_Provincia
-            JOIN Productos ON Gasolinerias.Id_Productos = productos.Id_Producto
-            JOIN Horarios ON Gasolinerias.Id_Horario = Horarios.Id_Horario
-        LIMIT 1 
-    );
-END%
+ 
+    DECLARE nombre_gasolineria VARCHAR(255);
+    
+    SELECT nombre_gasolineria INTO nombre_gasolineria
+    FROM gasolinerias
+    WHERE ID_gasolineria = p_id_gasolineria;
+    
+    RETURN nombre_gasolineria;
+END //
 
+DELIMITER ;
 
-DELIMITER %
-CREATE FUNCTION CalcularVentasEstacionServicio()
-RETURNS DECIMAL(10, 2)
+select obtener_nombre_gasolineria(1300);
+
+DELIMITER //
+
+CREATE FUNCTION obtener_cantidad_productos(p_id_productos INT) RETURNS INT
 DETERMINISTIC
 BEGIN
-    DECLARE totalVentas DECIMAL(10, 2);
+    DECLARE cantidad_productos INT;
 
-    SELECT SUM(gasolinerias.monto_venta) INTO totalVentas
-    FROM gasolinerias
-    JOIN empresa_bandera ON gasolinerias.id_empresabandera = empresa_bandera.id_empresa;
+    SELECT COUNT(*) INTO cantidad_productos
+    FROM productos
+    WHERE id_productos = p_id_productos;
 
-    RETURN totalVentas;
-END %
+    RETURN cantidad_productos;
+END //
 
+DELIMITER ;
 
-
-
-
+select obtener_cantidad_productos(19);
 
 

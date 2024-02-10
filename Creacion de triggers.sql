@@ -1,5 +1,13 @@
 /* Creacion de Triggers*/
-use gasolineria
+use gasolineria;
+
+CREATE TABLE historial_gasolinerias (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    id_gasolineria INT,
+    accion VARCHAR(50),
+    fecha_cambio TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
 /*Registrar una nueva estacion de servicio*/
 DELIMITER //
 
@@ -12,6 +20,15 @@ BEGIN
 END //
 
 DELIMITER ;
+
+
+CREATE TABLE historial_cambios_productos (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    id_gasolineria INT,
+    productos_anteriores INT,
+    productos_nuevos INT,
+    fecha_cambio TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
 
 /*Registrar un cambio de producto en estacion de servicio*/
 DELIMITER //
