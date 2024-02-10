@@ -75,15 +75,15 @@ https://github.com/AxelGuardia/Proyecto-gasolineria1/blob/9c3a64565da0093490cc6d
 ## Funciones
 <p> Creacion de funciones.</p>
 
-- Obtener estacion de servicio
-- Calcular ventas de estacion de servicio
+- obtener_nombre_gasolineria
+- obtener_cantidad_productos
 
 https://github.com/AxelGuardia/Proyecto-gasolineria1/blob/c6a2fb1bfd7cdb96add228a43e68fa79b36687d3/Funciones.sql
 
 ## Stored Procedures
 
-- Registrar ventas
-- Obtener promedio de ventas mensuales
+- Obtener_nombre_gasolineria_por_id
+- Obtener cantidad de productos por gasolineria
 
 https://github.com/AxelGuardia/Proyecto-gasolineria1/blob/3d37ea98cc2c2cdd644efe7996f2f02fd979393d/Stored%20procedure.sql
 
